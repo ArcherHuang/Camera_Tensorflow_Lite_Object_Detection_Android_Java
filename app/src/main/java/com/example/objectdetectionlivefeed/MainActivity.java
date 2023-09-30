@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements ImageReader.OnIma
             detector =
                     TFLiteObjectDetectionAPIModel.create(
                             this,
-                            "model2.tflite",
+                            "mobilenetv1.tflite", // model2
                             "labelmap.txt",
                             TF_OD_API_INPUT_SIZE,
                             true);
